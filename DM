@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Matrix Sourcing Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Design Matrix Sourcing Ltd.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customization">Customization</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Partner in Custom Apparel Manufacturing</h2>
+        <p>High-quality, customizable solutions for brands of all sizes.</p>
+        <a href="#products" class="cta">Explore Products</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Design Matrix Sourcing Ltd. specializes in manufacturing premium custom apparel with low minimum order quantities, supporting startups and established brands alike.</p>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-category">
+            <h3>T-Shirts & Tops</h3>
+            <p>Customizable in design, fabric, and fit.</p>
+        </div>
+        <div class="product-category">
+            <h3>Hoodies & Sweatshirts</h3>
+            <p>Comfortable and stylish, tailored to your needs.</p>
+        </div>
+        <div class="product-category">
+            <h3>Denim & Outerwear</h3>
+            <p>High-quality materials for durability and design.</p>
+        </div>
+        <!-- Add more categories as needed -->
+    </section>
+
+    <!-- Customization Services -->
+    <section id="customization">
+        <h2>Customization Options</h2>
+        <ul>
+            <li>Embroidery</li>
+            <li>Printing (Screen & Digital)</li>
+            <li>Fabric Sourcing</li>
+            <li>Custom Patches & Badges</li>
+            <li>Fit & Dimension Adjustments</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Design Matrix Sourcing Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
